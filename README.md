@@ -16,6 +16,7 @@ Comprehensive practical lab implementations and projects for the **Event-Driven 
 | **Week 6** | **Introduction to JavaFX** (Scene Graph, Stage & Scene, FXML, Modern Java UI) | [`week06-javafx/`](week06-javafx/) | Completed |
 | **Week 7** | **JavaFX Event Handling** (Event Filters & Handlers, Event Bubbling/Capturing, Properties & Bindings) | [`week07-javafx-events/`](week07-javafx-events/) | Completed |
 | **Week 8** | **Properties and Bindings in JavaFX** (Observable Properties, Change & Invalidation Listeners, Unidirectional & Bidirectional Bindings, Reactive Forms) | [`week08-javafx-bindings/`](week08-javafx-bindings/) | Completed |
+| **Week 10** | **Final Project: University Management System** (EDA End-to-End: MySQL Data Layer, `Task` Background Queries, `ScheduledExecutorService`, FXML Navigation, Bindings) | [`week10-final-project-university-system/`](week10-final-project-university-system/) | Completed (requires MySQL) |
 
 ---
 
