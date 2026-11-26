@@ -10,8 +10,9 @@ public class DatabaseUtil {
 
     private static final String USER = "root";
 
-    // TODO: replace with your local MySQL password before running
-    private static final String PASSWORD = "your_password";
+    // Real password comes from the UNIVERSITY_DB_PASSWORD environment variable, never from the repo
+    private static final String PASSWORD =
+            System.getenv().getOrDefault("UNIVERSITY_DB_PASSWORD", "your_password");
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
